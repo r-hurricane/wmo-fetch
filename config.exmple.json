@@ -1,0 +1,15 @@
+{
+	"logLevel": "info",
+	"databaseFile": "./fetch.db",
+	"dataPath": "./data/raw",
+	"baseUrl": "https://tgftp.nws.noaa.gov/data/raw",
+	"wmoFiles": [
+		"/no/nous42.knhc.rep.rpd.txt"
+	],
+	"notifications": {
+		"mock": true,
+		"from": "tcpod-alerts@some.com",
+		"to": "email-to@some.com",
+		"sendgridKey": "SendGridKey"
+	}
+}

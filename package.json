@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@r-hurricane/wmo-parser": "file:../wmo-parser",
+    "@sendgrid/mail": "^8.1.4",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
